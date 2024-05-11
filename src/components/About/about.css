@@ -1,0 +1,369 @@
+.about-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #011627;
+}
+
+.about-container .about {
+    display: flex;
+    position: relative;
+    height: 86%;
+    z-index: 200;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #31495F;
+    border: 1px solid #607b9634;
+    height: 100%;
+    padding: 10px;
+}
+
+.main-menu svg {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*=================== personal-info desing =========== */
+.personal-info {
+    border: 1px solid #607b9634;
+    color: #fff;
+    width: 100%;
+}
+
+.drop-down p {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid #607b965a;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 200;
+    font-size: 18px;
+}
+
+.show-icon {
+    font-size: 25px;
+    margin-left: 10px;
+    transform: rotate(90deg);
+}
+
+.roted-icon {
+    transition: .1s;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+/*================= drop down menu 1 desing ============== */
+
+.drop-down p {
+    color: #fff;
+    cursor: pointer;
+}
+
+.drop p {
+    color: #3e6181;
+}
+
+.drop p {
+    padding-left: 12px;
+    border: none;
+}
+
+.drop p .file {
+    color: #43D9AD;
+}
+
+/* ============== show drop-down menu ========= */
+
+.drop {
+    display: block;
+    line-height: 0px;
+}
+
+.drop.show-menu {
+    display: none;
+}
+
+/*================ drop down 2 desing ============ */
+
+
+.drop-down2 p {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid #607b9634;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.drop2 p {
+    color: #3a658d;
+}
+
+.drop2 {
+    margin-left: 12px;
+}
+
+.drop2 p {
+    border: none;
+}
+
+.drop2 p .file {
+    color: #43D9AD;
+}
+
+.drop-donw2 p {
+    color: #fff;
+}
+
+/*============= drop menu 2 show desing ============= */
+
+.drop2 {
+    display: block;
+}
+
+.drop2.show-menu {
+    display: none;
+}
+
+/*=================== project-info desing =========== */
+
+.project-info {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.project-info .top-tag {
+    background-color: #011627;
+    border-bottom: 1px solid #607b9634;
+    height: 47px;
+    position: fixed;
+    width: 100%;
+}
+
+.project-info p {
+  border-right: 1px solid #607b9634;
+  width: 170px;
+  height: 100%;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.project-info::-webkit-scrollbar {
+    width: 5px;
+    background-color: #3a658d75;
+}
+
+.project-info::-webkit-scrollbar-thumb {
+    background: #2d5174a9;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.details p {
+    color: #fff;
+    border-bottom: 1px solid #607b9634;
+    border-right: 1px solid #607b9634;
+    width: 100%;
+    padding: 12px 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+/*=================== project-code  desing =========== */
+
+.personal-code {
+    background-color: #011627;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+}
+
+.personal-code h4 {
+    color: #3a658d;
+    font-size: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid #607b9634;
+    width: 100%;
+    position: absolute;
+    padding-bottom: 12px;
+    left: 0px;
+
+}
+
+.personal-code::-webkit-scrollbar {
+    width: 6px;
+    height: 100px;
+    background-color: #3a658d75;
+}
+
+.personal-code::-webkit-scrollbar-thumb {
+    background: #3a658d;
+    border-radius: 20px;
+}
+
+
+
+.code-details {
+    background-color: #011221;
+    border-radius: 10px;
+    border: 1px solid #ffffff27;
+    margin-top: 50px;
+    height: 360px;
+}
+
+.code-demo {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: -30px;
+}
+
+
+.code-demo .pofile {
+    background-image: url('/public/image/IMG_20230828_171127-removebg-preview.png');
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    background-color: red;
+}
+
+/*=========== pofile-text desing ======= */
+
+.code-demo .pofile-text h3 {
+    color: #4D5BB8;
+}
+
+.code-demo .pofile-text p {
+    color: #3e6181;
+}
+
+/*=============== .pofile-icon desing ========== */
+
+.code-demo .pofile-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.code-demo .pofile-icon svg {
+  color: #3e6181;
+  padding: 1px;
+  margin-top: 3px;
+}
+
+.code-demo .pofile-icon p {
+    color: #3e6181;
+    font-size: 20px;
+
+}
+
+
+/*======================== bottom-menu desing ========== */
+
+.bottom-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 45px;
+    height: 50px;
+    border-top: 1px solid #607b965a;
+    width: 100%;
+    background-color: #011627;
+    z-index: 200;
+    color: #31495F;
+    position: fixed;
+    bottom: -7px;
+}
+
+.icon-menu p {
+    padding-right: 10px;
+}
+
+.bottom-menu .icon-menu {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+
+}
+
+.icon-menu .icon-fa {
+    border: 1px solid #607b966a;
+    height: 100%;
+    padding: 10px 20px;
+    font-size: 60px;
+}
+
+.git-file {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    border-left: 1px solid #607b966a;
+    height: 100%;
+    padding-left: 20px;
+    color: #31495F;
+}
+
+
+/*================== Adding a media querys ============= */
+
+@media (max-width:991px) {
+    
+    .about-container {
+      position: inherit;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .main-menu {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        border: none;
+    } 
+
+    .main-menu svg:nth-child(2){
+      margin-left: 2px;
+    }
+
+    .project-info .top-tag{
+        position: inherit;
+    }
+
+    
+   
+}
+
+@media (max-width:768px) {
+    .main-menu {
+        margin-top: 40px;
+    }
+}
